@@ -1,0 +1,7 @@
+N = int(input())
+z = 0
+for i in range(N):
+    x, y = map(float, input().split())
+    z += (x*y)
+
+print(z)
