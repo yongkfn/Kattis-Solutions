@@ -1,0 +1,8 @@
+X = int(input())
+
+if X % 2 == 1:
+    Y = "Alice"
+elif X % 2 == 0:
+    Y = "Bob"
+
+print(Y)
