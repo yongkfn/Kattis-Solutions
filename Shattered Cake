@@ -1,0 +1,11 @@
+W = int(input())
+N = int(input())
+area = 0
+
+for i in range(N):
+    x, y = map(int, input().split())
+    z = x * y
+    area += z
+
+L = int(area / W)
+print(L)
