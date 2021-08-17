@@ -1,0 +1,9 @@
+x, y = map(int, input().split())
+total = 0
+for i in range(y):
+    z = int(input())
+    total += z
+
+max = ((x-y)*3 + total)/x
+min = ((x-y)*(-3) + total)/x
+print(min, max)
