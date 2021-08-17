@@ -1,0 +1,14 @@
+x = input()
+finder = False
+
+for i in range(len(x)-1):
+    if (x[i]) == x[i+1] == 's':
+        finder = True
+        break
+    else:
+        finder = False
+
+if finder is False:
+    print('no hiss')
+elif finder is True:
+    print('hiss')
