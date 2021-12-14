@@ -2,13 +2,13 @@ deck = str(input())
 t = deck.count("T")
 c = deck.count("C")
 g = deck.count("G")
-print(t,c,g)
+##print(t,c,g)
 seven = 0
 
 numT = t/3
 numC = c/3
 numG = g/3
-print(numT,numC,numG)
+##print(numT,numC,numG)
 
 if numT <= numC and numT <= numG:
     seven = 7 * t
