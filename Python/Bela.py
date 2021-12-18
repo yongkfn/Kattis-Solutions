@@ -32,5 +32,5 @@ def solver(card, suit, dominant_suit):
 for i in range(int(N)*4):
     x = input()
     count += solver(x[0],x[1],B)
-##    print(x, count)
+
 print(count)
