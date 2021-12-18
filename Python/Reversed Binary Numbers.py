@@ -7,6 +7,6 @@ def BinaryToDecimal(num):
     return int(num,2)
 
 z = BinaryToDecimal(y[::-1])
-
+ 
 print(z)
         
